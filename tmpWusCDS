@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet" />
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="Generator" content="DSpace 1.8.2" />
+<link type="text/css" rel="stylesheet" media="screen" href="/researchworks/themes/ResearchWorks/lib/style.css" />
+<link type="application/opensearchdescription+xml" rel="search" href="https://digital.lib.washington.edu:443/researchworks/open-search/description.xml" title="DSpace" />
+<script type="text/javascript">
+                                //Clear default text of emty text areas on focus
+                                function tFocus(element)
+                                {
+                                        if (element.value == ' '){element.value='';}
+                                }
+                                //Clear default text of emty text areas on submit
+                                function tSubmit(form)
+                                {
+                                        var defaultedElements = document.getElementsByTagName("textarea");
+                                        for (var i=0; i != defaultedElements.length; i++){
+                                                if (defaultedElements[i].value == ' '){
+                                                        defaultedElements[i].value='';}}
+                                }
+                                //Disable pressing 'enter' key to submit a form (otherwise pressing 'enter' causes a submission to start over)
+                                function disableEnterKey(e)
+                                {
+                                     var key;
+                                
+                                     if(window.event)
+                                          key = window.event.keyCode;     //Internet Explorer
+                                     else
+                                          key = e.which;     //Firefox and Netscape
+                                
+                                     if(key == 13)  //if "Enter" pressed, then disable!
+                                          return false;
+                                     else
+                                          return true;
+                                }
+            </script>
+<title>Coding Manual for "What Will it Take to End Homelessness?"</title>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.creator" content="Woelfer, Jill Palzkill" />
+<meta name="DC.creator" content="Hendry, David G" />
+<meta name="DCTERMS.dateAccepted" content="2013-01-08T23:21:49Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.available" content="2013-01-08T23:21:49Z" scheme="DCTERMS.W3CDTF" />
+<meta name="DCTERMS.issued" content="2013-01-07" scheme="DCTERMS.W3CDTF" />
+<meta name="DC.identifier" content="http://hdl.handle.net/1773/20982" scheme="DCTERMS.URI" />
+<meta name="DCTERMS.abstract" content="This technical report presents a coding manual for analyzing a body of material related to the causes or explanations of homelessness, opportunities and solutions for addressing homelessness, or related aspects. The coding manual, which shows good inter-rater reliability, consists of three major codes, namely “Structural Factors,” “Individual Factors,” and “Not Possible to End Homelessness,” along with 16 sub-codes. The technical report also includes a summary of the development of the coding manual and measures of reliability, all 109 excerpts that were used in the construction of the manual, a summary of the codes applied to the excerpts, and a tutorial on the calculation of Cohen’s Kappa." xml:lang="en_US" />
+<meta name="DC.description" content="This technical report is based upon work supported by the National Science Foundation under Grant No. 1018008." xml:lang="en_US" />
+<meta name="DC.subject" content="Homelessness" xml:lang="en_US" />
+<meta name="DC.subject" content="Homeless Young People" xml:lang="en_US" />
+<meta name="DC.subject" content="Structural and Individual Factors" xml:lang="en_US" />
+<meta name="DC.subject" content="Coding Manual" xml:lang="en_US" />
+<meta name="DC.subject" content="Cohen's Kappa" xml:lang="en_US" />
+<meta name="DC.title" content="Coding Manual for &quot;What Will it Take to End Homelessness?&quot;" xml:lang="en_US" />
+
+<meta content="Coding Manual for &quot;What Will it Take to End Homelessness?&quot;" name="citation_title" />
+<meta content="Homelessness; Homeless Young People; Structural and Individual Factors; Coding Manual; Cohen's Kappa" name="citation_keywords" />
+<meta content="2013-01-07" name="citation_date" />
+<meta content="Woelfer, Jill Palzkill; Hendry, David G" name="citation_authors" />
+<meta content="https://digital.lib.washington.edu:443/xmlui/handle/1773/20982" name="citation_abstract_html_url" />
+</head>
+<body>
+<div id="ds-main">
+<div id="ds-header">
+<div id="uwlink">
+<p id="uwlink-head">
+<a href="http://www.lib.washington.edu">University of Washington Libraries</a>
+</p>
+</div>
+<div id="faqlink">
+<p>
+<a href="https://digital.lib.washington.edu/rw-faq/faq.html">FAQ</a>
+</p>
+</div>
+<a href="/researchworks/">
+<span id="ds-header-logo"> </span>
+</a>
+<h1 class="pagetitle">Coding Manual for "What Will it Take to End Homelessness?"</h1>
+<h2 class="static-pagetitle">ResearchWorks/Manakin Repository</h2>
+<ul id="ds-trail">
+<li class="ds-trail-link first-link ">
+<a href="/researchworks/">ResearchWorks Home</a>
+</li>
+<li class="ds-trail-link ">
+<a href="/researchworks/handle/1773/3774">Faculty and Researcher Data and Papers</a>
+</li>
+<li class="ds-trail-link ">
+<a href="/researchworks/handle/1773/108">Information School</a>
+</li>
+<li class="ds-trail-link ">
+<a href="/researchworks/handle/1773/1976">Information School Technical Report Repository</a>
+</li>
+<li class="ds-trail-link last-link">View Item</li>
+</ul>
+<div id="ds-user-box">
+<p>
+<a href="/researchworks/login">Login</a>
+</p>
+</div>
+</div>
+<div id="ds-options">
+<h3 class="ds-option-set-head" id="ds-search-option-head">Search ResearchWorks</h3>
+<div class="ds-option-set" id="ds-search-option">
+<form method="post" id="ds-search-form" action="/researchworks/discover">
+<fieldset>
+<input type="text" class="ds-text-field " name="query" />
+<input value="Go" type="submit" name="submit" class="ds-button-field " onclick="&#10;                             var radio = document.getElementById(&quot;ds-search-form-scope-container&quot;);&#10;                               if (radio != undefined &amp;&amp; radio.checked)&#10;                                 {&#10;                                   var form = document.getElementById(&quot;ds-search-form&quot;);&#10;                                   form.action=&#10;                          &quot;/researchworks/handle/&quot; + radio.value + &quot;/discover&quot; ; &#10;                             }&#10;                          " />
+<label>
+<input checked="checked" value="" name="scope" type="radio" id="ds-search-form-scope-all" />Search ResearchWorks</label>
+<br />
+<label>
+<input name="scope" type="radio" id="ds-search-form-scope-container" value="1773/1976" />This Collection</label>
+</fieldset>
+</form>
+<a href="/researchworks/discover">Advanced Search</a>
+</div>
+<h3 class="ds-option-set-head">Browse</h3>
+<div id="aspect_viewArtifacts_Navigation_list_browse" class="ds-option-set">
+<ul class="ds-options-list">
+<li>
+<h4 class="ds-sublist-head">All of ResearchWorks</h4>
+<ul class="ds-simple-list">
+<li>
+<a href="/researchworks/community-list">Communities &amp; Collections</a>
+</li>
+<li>
+<a href="/researchworks/browse?type=dateissued">By Issue Date</a>
+</li>
+<li>
+<a href="/researchworks/browse?type=author">Authors</a>
+</li>
+<li>
+<a href="/researchworks/browse?type=title">Titles</a>
+</li>
+<li>
+<a href="/researchworks/browse?type=subject">Subjects</a>
+</li>
+</ul>
+</li>
+<li>
+<h4 class="ds-sublist-head">This Collection</h4>
+<ul class="ds-simple-list">
+<li>
+<a href="/researchworks/handle/1773/1976/browse?type=dateissued">By Issue Date</a>
+</li>
+<li>
+<a href="/researchworks/handle/1773/1976/browse?type=author">Authors</a>
+</li>
+<li>
+<a href="/researchworks/handle/1773/1976/browse?type=title">Titles</a>
+</li>
+<li>
+<a href="/researchworks/handle/1773/1976/browse?type=subject">Subjects</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 class="ds-option-set-head">My Account</h3>
+<div id="aspect_viewArtifacts_Navigation_list_account" class="ds-option-set">
+<ul class="ds-simple-list">
+<li>
+<a href="/researchworks/login">Login</a>
+</li>
+<li>
+<a href="/researchworks/register">Register</a>
+</li>
+</ul>
+</div>
+<h3 class="ds-option-set-head">Related Information</h3>
+<ul class="ds-simple-list">
+<li>
+<a href="http://www.lib.washington.edu/scholcomm/">Issues in Scholarly Communication</a>
+</li>
+<li>
+<a href="http://www.arl.org/sparc/author/addendum.shtml">Publication Agreement Author Rights Addendum</a>
+</li>
+<li>
+<a href="https://digital.lib.washington.edu/rw-faq/faq.html">FAQ</a>
+</li>
+</ul>
+</div>
+<div id="ds-body">
+<h1 style="font-size: 227%;" class="ds-div-head">Coding Manual for "What Will it Take to End Homelessness?"</h1>
+<div id="aspect_artifactbrowser_ItemViewer_div_item-view" class="ds-static-div primary">
+<p class="ds-paragraph item-view-toggle item-view-toggle-top">
+<a href="/researchworks/handle/1773/20982?show=full">Show full item record</a>
+</p>
+<!-- External Metadata URL: cocoon://metadata/handle/1773/20982/mets.xml-->
+<table class="ds-includeSet-table">
+<tr class="ds-table-row even">
+<td>
+<span class="bold">Title: </span>
+</td>
+<td>
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft_id=http%3A%2F%2Fhdl.handle.net%2F1773%2F20982&amp;rfr_id=info%3Asid%2Fdspace.org%3Arepository&amp;rft.creator=Woelfer%2C+Jill+Palzkill&amp;rft.creator=Hendry%2C+David+G&amp;rft.date=2013-01-08T23%3A21%3A49Z&amp;rft.date=2013-01-08T23%3A21%3A49Z&amp;rft.date=2013-01-07&amp;rft.identifier=http%3A%2F%2Fhdl.handle.net%2F1773%2F20982">Coding Manual for "What Will it Take to End Homelessness?"</span>
+</td>
+</tr>
+<tr class="ds-table-row odd">
+<td>
+<span class="bold">Author:</span>
+</td>
+<td>
+<span>Woelfer, Jill Palzkill</span>; <span>Hendry, David G</span>
+</td>
+</tr>
+<tr class="ds-table-row even">
+<td>
+<span class="bold">Abstract:</span>
+</td>
+<td>This technical report presents a coding manual for analyzing a body of material related to the causes or explanations of homelessness, opportunities and solutions for addressing homelessness, or related aspects. The coding manual, which shows good inter-rater reliability, consists of three major codes, namely “Structural Factors,” “Individual Factors,” and “Not Possible to End Homelessness,” along with 16 sub-codes. The technical report also includes a summary of the development of the coding manual and measures of reliability, all 109 excerpts that were used in the construction of the manual, a summary of the codes applied to the excerpts, and a tutorial on the calculation of Cohen’s Kappa.</td>
+</tr>
+<tr class="ds-table-row odd">
+<td>
+<span class="bold">URI:</span>
+</td>
+<td>
+<a href="http://hdl.handle.net/1773/20982">http://hdl.handle.net/1773/20982</a>
+</td>
+</tr>
+</table>
+<h2>Files in this item</h2>
+<table class="ds-table file-list">
+<tr class="ds-table-header-row">
+<th>Files</th>
+<th>Size</th>
+<th>Format</th>
+<th>View</th>
+<th>Description</th>
+</tr>
+<tr class="ds-table-row odd ">
+<td>
+<a href="/researchworks/bitstream/handle/1773/20982/IS-TR-2013-01-07.pdf?sequence=1" title="IS-TR-2013-01-07.pdf">IS-TR-2013-01-07.pdf</a>
+</td>
+<td>253.4Kb</td>
+<td>PDF</td>
+<td>
+<a href="/researchworks/bitstream/handle/1773/20982/IS-TR-2013-01-07.pdf?sequence=1">View/<wbr />Open</a>
+</td>
+<td>Technical report</td>
+</tr>
+<tr class="ds-table-row even ">
+<td>
+<a href="/researchworks/bitstream/handle/1773/20982/IS-TR-2013-01-07%20kappa%20calculator.xlsx?sequence=2" title="IS-TR-2013-01-07 kappa calculator.xlsx">IS-TR-2013-01-07 kappa calculator.xlsx</a>
+</td>
+<td>16.13Kb</td>
+<td>Microsoft Excel</td>
+<td>
+<a href="/researchworks/bitstream/handle/1773/20982/IS-TR-2013-01-07%20kappa%20calculator.xlsx?sequence=2">View/<wbr />Open</a>
+</td>
+<td> Spreadsheet Kappa Calculator</td>
+</tr>
+</table>
+<h3 class="ds-list-head">This item appears in the following Collection(s)</h3>
+<ul class="ds-referenceSet-list">
+<!-- External Metadata URL: cocoon://metadata/handle/1773/1976/mets.xml-->
+<li>
+<a xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" href="/researchworks/handle/1773/1976">Information School Technical Report Repository</a> [20]<br xmlns:oreatom="http://www.openarchives.org/ore/atom/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:atom="http://www.w3.org/2005/Atom" />
+</li>
+</ul>
+<p class="ds-paragraph item-view-toggle item-view-toggle-bottom">
+<a href="/researchworks/handle/1773/20982?show=full">Show full item record</a>
+</p>
+</div>
+</div>
+<div id="ds-footer">
+<div id="ds-footer-links">
+<a href="http://www.washington.edu/online/privacy">Privacy</a> | <a href="/researchworks/contact">Contact Us</a> | <a href="/researchworks/feedback">Send Feedback</a>
+</div>
+</div>
+</div>
+</body>
+</html>
