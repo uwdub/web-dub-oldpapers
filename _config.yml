@@ -1,13 +1,35 @@
-name:       DUB Old Papers
+name:       'DUB Old Papers'
 baseurl:    ''
 
+brandimage: ''
+brandtext:  'Fogies'
+
+lessc: node_modules/.bin/lessc
+
+navbar:
+  items:
+    - text: 'Sidebar-None'
+      link: 'base_sample/bar-sidebar-none.html'
+    - text: 'Sidebar-Right'
+      link: 'base_sample/bar-sidebar-right.html'
+
 exclude:
-  # Our Python
+  # Bootstrap
+  - bootstrap/less
+  # Node
+  - node_modules
+  - npm-shrinkwrap.json
+  - package.json
+  # Python
   - env34
+  - env35
   - requirements3.txt
   - tasks.py
   - tasks.pyc
-  # Project README
+  # README
   - README.md
+  # Ruby
+  - Gemfile
+  - Gemfile.lock
   # Tests
   - tests
