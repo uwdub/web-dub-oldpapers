@@ -2,11 +2,15 @@
 .idea
 
 # Jekyll's build of the site
+.jekyll-metadata
 _site
 
 # Our Python environment
-env27
 env34
+env35
 
 # Compiled Python
 *.pyc
+
+# Installed node packages
+node_modules
