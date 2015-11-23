@@ -1,6 +1,7 @@
 import invoke
 
 
+@invoke.task
 def update_dependencies():
     invoke.run('gem install bundler')
     invoke.run('bundle install')
