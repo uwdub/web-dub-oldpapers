@@ -6,19 +6,26 @@ sudo: false
 language: python
 
 python:
-  - "3.5"
+  - "{{ local.python.version }}"
+
+cache:
+  pip: true
+  directories:
+    - node_modules
+    - /home/travis/.rvm/gems
 
 install:
   # Install Ruby
-  - rvm install 2.2.3
-  - rvm @global do gem install bundler -v 1.10.6
-  - rvm @global do gem uninstall bundler -v "!=1.10.6"
-  - rvm use 2.2.3 --default
+  - rvm install {{ local.ruby.version }}
+  - rvm @global do gem install bundler -v {{ local.ruby.bundler_version }}
+  - rvm @global do gem uninstall bundler -v "!={{ local.ruby.bundler_version }}"
+  - rvm use {{ local.ruby.version }} --default
 
   # Install NodeJS
-  - nvm install 5.1.0
+  - nvm install {{ local.node.version }}
 
-  # Install Python dependencies (including invoke)
+  # Install Python dependencies
+  - python -m pip install --upgrade pip=={{ local.python.pip_version }}
   - python -m pip install -r requirements3.txt
 
   # Invoke will get our other dependencies
@@ -26,3 +33,4 @@ install:
 
 script:
   - nosetests
+{# This comment gives us a newline at the end of the generated file #}
