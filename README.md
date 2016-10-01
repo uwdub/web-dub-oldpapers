@@ -1,4 +1,6 @@
-This is a template for websites implemented using Jekyll.
+This serves papers that were published on the old DUB website, in case those URLs had been indexed or were
+otherwise the only public version of a paper. These papers are not linked anywhere from the current DUB website.
+We will end this website and the associated URLs when the current DUB website includes publications.
 
 # Building the Site
 
